@@ -13,9 +13,9 @@ const Counter = () => {
             <div className="counter_container">
                 <h1 className="title">Counter app using React-Redux</h1>
                 <div className="inc-dec_section">
-                    <button onClick={() => dispatch(increment())}>+</button>
+                    <button onClick={() => dispatch(increment(1))}>+</button>
                     <h1>{counter}</h1>
-                    <button onClick={() => dispatch(decrement())}>-</button>
+                    <button onClick={() => dispatch(decrement(1))}>-</button>
                 </div>
                 <div className="auth_section">
                     <div className="login-logout_section">
